@@ -177,6 +177,6 @@ function useToast() {
 
 export { useToast, toast };
 
-function genId() {
-  throw new Error("Function not implemented.");
+function genId(): string {
+  return Math.random().toString(36).substring(2, 9);
 }

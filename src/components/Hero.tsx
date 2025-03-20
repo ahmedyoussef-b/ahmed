@@ -25,7 +25,7 @@ const Hero = () => {
         {/* Headline */}
         <AnimatedSection animation="fade-in-up" delay={200}>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-balance">
-            L'Élégance dans sa Forme<br /> la Plus Simple
+            L&apos;Élégance dans sa Forme<br /> la Plus Simple
           </h1>
         </AnimatedSection>
 
@@ -33,7 +33,7 @@ const Hero = () => {
         <AnimatedSection animation="fade-in-up" delay={400}>
           <p className="text-lg md:text-xl text-foreground/70 max-w-3xl mx-auto mb-10 text-balance">
             Découvrez la beauté de la simplicité à travers un design minimaliste et intuitif
-            qui met en valeur l'essentiel. Une expérience sublime qui transcende l'ordinaire.
+            qui met en valeur l&apos;essentiel. Une expérience sublime qui transcende l&apos;ordinaire.
           </p>
         </AnimatedSection>
 
